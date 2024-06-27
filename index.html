@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Editor - Dark Theme</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="editor-container">
+    <div class="editor-header">
+      <span class="title">Code Editor</span>
+      <button class="run-button">Run</button>
+    </div>
+    <div class="editors">
+      <div class="editor html-editor">
+        <label>HTML</label>
+        <textarea id="html-code" placeholder="Enter HTML code..."></textarea>
+      </div>
+      <div class="editor css-editor">
+        <label>CSS</label>
+        <textarea id="css-code" placeholder="Enter CSS code..."></textarea>
+      </div>
+      <div class="editor js-editor">
+        <label>JavaScript</label>
+        <textarea id="js-code" placeholder="Enter JavaScript code..."></textarea>
+      </div>
+    </div>
+    <div class="preview">
+      <iframe id="output" frameborder="0"></iframe>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

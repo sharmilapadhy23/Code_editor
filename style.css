@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* Dark background */
+    color: #c5c6c7; /* Light text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .editor-container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2b2b; /* Darker container background */
+    border: 1px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .editor-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333; /* Darker header background */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c5c6c7;
+  }
+  
+  .run-button {
+    padding: 8px 16px;
+    background-color: #3f3f3f; /* Darker button background */
+    color: #c5c6c7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .run-button:hover {
+    background-color: #555;
+  }
+  
+  .editors {
+    display: flex;
+    flex: 1;
+  }
+  
+  .editor {
+    flex: 1;
+    padding: 10px;
+    overflow: auto;
+  }
+  
+  .editor label {
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #333; /* Darker label background */
+    color: #c5c6c7;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #2b2b2b; /* Darker textarea background */
+    color: #f1f1f1; /* Light text color */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    resize: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .preview {
+    height: 50%;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark preview background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .preview iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* FontAwesome icons (optional) */
+  .icon {
+    color: #c5c6c7;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    color: #ffffff;
+  }
+  
